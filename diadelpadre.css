@@ -1,0 +1,127 @@
+body {
+    height: 100vh;
+    background: linear-gradient(blue, white);
+}
+
+h1 {
+    color: white; text-shadow: black 0.1em 0.1em 0.2em;
+    display: flex;
+    justify-content: center;
+}
+
+.basico {
+    display: flex;
+    border: solid 3px blue;
+    padding: 10px;
+    margin:  50px 300px 30px 300px;
+    box-shadow: 0px 0px 5px 1px black;
+    justify-content: center;
+    color: white;
+    text-align: center;
+}
+
+.lostres {
+    display: flex;
+    gap: 40px;
+    justify-content: center;
+}
+
+.cali, .bona, .nero {
+    width: 350px;
+    display: block;
+}
+
+.palabrascali, .palabrasbona, .palabrasnero {
+    display: flex;
+    border: solid 3px blue;
+    width: 350px;
+    justify-content: center;
+    padding: 10px;
+    box-shadow: 0px 0px 5px 1px black;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+}
+
+#calilo {
+    width: 340px;
+}
+
+.fotos {
+    display: flex;
+    border: solid 3px blue;
+    padding: 10px;
+    margin:  50px 50px 50px 50px;
+    box-shadow: 0px 0px 5px 1px black;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+button {
+    margin-left: 10px;
+    margin-right: 10px;
+    height: 50px;
+    border-radius: 20px;
+    border: 3px solid blue;
+    background-color: transparent;
+    color: blue; text-shadow: black 0.1em 0.2em 0.2em;
+}
+
+.link {
+    display: flex;
+    justify-content: center;
+}
+
+a{
+    margin-bottom: 30px;
+}
+
+@media screen and (max-width: 720px) {
+    .lostres {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+}
+
+@media screen and (max-width: 720px) {
+    .basico {
+        display: flex;
+        align-items: center;
+        margin: 10px;
+    }
+}
+
+img {
+    display: block;
+    height: 200px;
+    margin: 10px;
+    border-radius: 20px;
+    border: solid 3px blue;
+    box-shadow: 0px 0px 5px 1px black;
+}
+
+@media screen and (max-width: 720px) {
+    .fotos {
+        display: flex;
+        flex-direction: column;
+    }
+}
+
+@media screen and (max-width: 720px) {
+    .imagen {
+    height: 300px;
+    }
+}
+
+@media screen and (max-width: 720px) {
+    .imagenpapa {
+    height: 300px;
+    width: 200px;
+    margin: auto;
+    }
+}
+
+.imagen, .imagenpapa {
+    display: flex;
+}
